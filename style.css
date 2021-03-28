@@ -18,7 +18,6 @@ body {
   display: grid;
   height: 80vh;
   width: 60vw;
-  background-color: #3e2723;
   padding: 10px;
   border-radius: 10px;
 }
@@ -29,11 +28,10 @@ body {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+
 }
 
-.background {
-  background-color: black;
-}
+
 
 /* .item:hover {
     background-color: yellow;
@@ -42,7 +40,7 @@ body {
 button {
   position: absolute;
   top: 2%;
-width: 20%;
+  width: 20%;
   margin: auto;
   display: inline-block;
   border: none;
@@ -56,8 +54,8 @@ width: 20%;
   font-size: 1rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, 
-              transform 150ms ease;
+  transition: background 250ms ease-in-out,
+    transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
